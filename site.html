@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <audio id="music" src="MusicaAngelo.mp3" autoplay loop ></audio>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+    </style>
+    <script src="script.js">
+    </script>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despertar da Realidade</title>
+</head>
+<body onload="start()">
+    <div class="top">
+        <div class="image">
+            <img style="width:250px;height:124px;" src="./imagens/despertarlogo.png" alt="logo">
+        </div>
+        <h1 class="texttop">Despertar Da Realidade</h1>
+        <div class="displaybuttons"> 
+            <button class="textobutton" onclick="window.location.href='site.html'" > 🏠︎ Home</button>
+            <button class="textobutton"> ✹ Em Alta</button>
+            <button class="textobutton"> ☄ Comentários Públicos</button>
+            <button class="textobutton"> ☬ Sobre</button>
+            <button class="textobutton" onclick="volumedown()"> ↤ </button>
+            <button class="textobutton" onclick="playpause()" id="musictexto">.</button>
+            <button class="textobutton" onclick="volumeup()"> ↦ </button>
+            
+            <input class="textobutton" type="text">
+            <a class="textobutton"  href="https://www.youtube.com/watch?v=9NcPvmk4vfo" target="_blank"> 🔍︎</a>
+        
+        </div>
+    </div>
+    <div class="topics">
+        <div class="innertopic">
+            <img style="width:125px;height:112px; margin: 10px;" src="./imagens/OrbeSangue.png"  alt="">
+            <div class="texttopic">
+            <h1><a style="color: white;"  href="./missao1.html"> Minha Primeira Tarefa </a></h1>
+            <p>Mesmo ainda sendo novato, fui designado para uma missão </p>
+            <p> Publicado 03/01/2020 às 14:18</p>
+            </div>
+        </div>
+        <div class="innertopic">
+            <img style="width:125px;height:112px; margin: 10px;" src="./imagens/OrbeComercimento.png"  alt="">
+            <div class="texttopic">
+            <h1><a style="color: white;"  href="./encontro.html"> Um encontro com o paranormal </a></h1>
+            <p>Eu não preciso que todos acreditem nisso, mas é sério, acabou de acontecer uma loucura comigo </p>
+            <p> Publicado 02/01/2020 às 19:30</p>
+            </div>
+        </div>
+    
+    </div>
+</body>
+</html>
